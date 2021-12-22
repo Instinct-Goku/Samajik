@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/profile_img"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="0dp"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/profile_img"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        tools:text="siddharth kanojiya"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/create_time"
+        android:layout_width="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profile_img"
+        app:layout_constraintTop_toBottomOf="@id/user_name"
+        tools:text="2 hours ago" />
+
+    <TextView
+        android:id="@+id/post_text"
+        android:layout_width="0dp"
+        tools:text="Hey guys, This is the last part of this 5 Projects Android Series. In this video, We'll learn how to fetch Posts from Firebase and show them inside Recyclerview."
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/profile_img"
+        android:layout_margin="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile_img"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/like_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_liked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_text"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/like_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="28 likes"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/post_text"
+        app:layout_constraintLeft_toRightOf="@+id/like_btn"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

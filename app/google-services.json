@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "640691185120",
+    "project_id": "samajik-48fee",
+    "storage_bucket": "samajik-48fee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640691185120:android:2fff54de58f5d61af2f785",
+        "android_client_info": {
+          "package_name": "com.skdevelopment.samajik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640691185120-ummo9jlbpb31mqee9ob68g0rttqbrhql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skdevelopment.samajik",
+            "certificate_hash": "c4452cc499e37b8e7988c063e957d4bd0a829c96"
+          }
+        },
+        {
+          "client_id": "640691185120-n1mnuvrv06iee6iqnekpj7jo8uk5plgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsIdFfOIJCifO1J1dQhlrG4tN_vl4nx_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640691185120-n1mnuvrv06iee6iqnekpj7jo8uk5plgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
